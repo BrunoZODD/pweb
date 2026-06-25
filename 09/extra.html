@@ -8,24 +8,19 @@
 body {
     margin: 0;
 }
-.head {
-    background-color: lightblue;
-    
-}
 #fixo {
     position: fixed;
     width: 100%;
     height: 50px;
     top: 0;
-}
-.foo {
-    background-color: lightpink;
+    background-color: lightblue;
 }
 #foo {
     position: fixed;
     width: 100%;
     height: 50px;
     bottom: 0;
+    background-color: lightpink;
 }
 .float {
     display: flex;
@@ -48,27 +43,27 @@ body {
     </style>
 </head>
 <body>
-<div id="fixo" class="head">
-    Header 100%
-</div>
 <div class="float">
-<div id="left">
-    Left 25%
+    
+    <div id="fixo">
+        Header 100%
+    </div>
+    <div id="left">
+        Left 25%
+    </div>
+    <div id="center">
+        Center 50%
+    </div> 
+    <div id="right">
+        Right 25%
+    </div>
+
+
 </div>
-<div id="center">
-    Center 50%
-</div> 
-<div id="right">
-    Right 25%
-</div>
 
 
 
-</div>
-
-
-
-<div id="foo" class="foo">
+<div id="foo">
     Fooster 100%
 </div>
 
